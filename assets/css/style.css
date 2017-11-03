@@ -1,0 +1,505 @@
+/* Mixin for border radius */
+/* Mixin for transition */
+/* line 1, ../scss/partial/_base.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 5, ../scss/partial/_base.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 9, ../scss/partial/_base.scss */
+body {
+  background: #dddddd;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+
+/* line 14, ../scss/partial/_base.scss */
+a {
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* line 18, ../scss/partial/_base.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 21, ../scss/partial/_base.scss */
+a:focus {
+  outline: 0;
+}
+
+/* line 24, ../scss/partial/_base.scss */
+.bg-trans {
+  background: transparent;
+}
+
+/* line 27, ../scss/partial/_base.scss */
+.overlay {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* line 30, ../scss/partial/_base.scss */
+.sec-pad {
+  padding: 100px 0 60px;
+}
+
+/* line 34, ../scss/partial/_base.scss */
+.section-header i {
+  font-size: 16px;
+  color: #4a575f;
+}
+/* line 38, ../scss/partial/_base.scss */
+.section-header .separator {
+  background: #bfc8e0;
+  max-width: 130px;
+}
+/* line 42, ../scss/partial/_base.scss */
+.section-header h1 {
+  font-size: 40px;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+}
+/* line 46, ../scss/partial/_base.scss */
+.section-header h1 span {
+  color: #3f68d4;
+}
+
+/* line 51, ../scss/partial/_base.scss */
+.custom-btn {
+  background: #3f68d4;
+  border: 1px solid #3f68d4;
+  border-radius: 0;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+/* line 59, ../scss/partial/_base.scss */
+.custom-btn:hover {
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+/* End of import all partial scss */
+/* Start style from here */
+/* Start header */
+/* line 10, ../scss/style.scss */
+header {
+  background: url("../images/section-bg/header-bg.jpg") no-repeat fixed center center/cover;
+}
+/* line 12, ../scss/style.scss */
+header .jumbotron {
+  padding: 15rem 0;
+}
+/* line 14, ../scss/style.scss */
+header .jumbotron h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+/* line 18, ../scss/style.scss */
+header .jumbotron h6 span {
+  color: #3f68d4;
+}
+/* line 22, ../scss/style.scss */
+header .jumbotron h1 {
+  font-size: 70px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+/* line 27, ../scss/style.scss */
+header .jumbotron h1 span {
+  color: #3f68d4;
+}
+/* line 31, ../scss/style.scss */
+header .jumbotron p {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 560px;
+}
+/* line 38, ../scss/style.scss */
+header .carousel-control-next, header .carousel-control-prev {
+  width: 5%;
+  font-size: 25px;
+}
+/* line 42, ../scss/style.scss */
+header .navbar {
+  padding: 2rem 0;
+}
+
+/* line 47, ../scss/style.scss */
+.main-navbar .logo {
+  color: #ffffff;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+}
+/* line 51, ../scss/style.scss */
+.main-navbar .logo:hover {
+  color: #ffffff;
+}
+/* line 58, ../scss/style.scss */
+.main-navbar .main-menu .nav-item:last-child a {
+  padding-right: 0;
+}
+/* line 64, ../scss/style.scss */
+.main-navbar .main-menu li a {
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 68, ../scss/style.scss */
+.main-navbar .main-menu li .nav-link {
+  color: #ffffff;
+}
+/* line 70, ../scss/style.scss */
+.main-navbar .main-menu li .nav-link:hover {
+  color: #3f68d4;
+}
+
+/* line 78, ../scss/style.scss */
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #3f68d4;
+}
+
+/* line 81, ../scss/style.scss */
+.navbar-toggler {
+  background: #ffffff;
+}
+/* line 83, ../scss/style.scss */
+.navbar-toggler:focus {
+  outline: 0;
+}
+
+/* End of header */
+/* Start service */
+/* line 91, ../scss/style.scss */
+#service {
+  background: #f0f0f0;
+}
+
+/* line 95, ../scss/style.scss */
+.same-service h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+}
+/* line 101, ../scss/style.scss */
+.same-service .media img {
+  margin-top: 6px;
+}
+/* line 106, ../scss/style.scss */
+.same-service .media-body p {
+  max-width: 220px;
+}
+/* line 108, ../scss/style.scss */
+.same-service .media-body p i {
+  font-size: 14px;
+  color: #5e6d77;
+}
+
+/* End of service */
+/* Start about us */
+/* line 119, ../scss/style.scss */
+#about-us {
+  background: #f5f5f5;
+}
+/* line 123, ../scss/style.scss */
+#about-us .about-left .jumbotron h1 {
+  font-size: 30px;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+}
+/* line 128, ../scss/style.scss */
+#about-us .about-left .jumbotron p {
+  font-size: 14px;
+  color: #5e6d77;
+}
+
+/* End of about us section */
+/* Start work section */
+/* line 139, ../scss/style.scss */
+.nav.filter-nav {
+  float: right;
+  margin-top: 50px;
+}
+/* line 143, ../scss/style.scss */
+.nav.filter-nav li a {
+  color: #a1a1a1;
+}
+
+/* End of work section */
+/* Start counter up */
+/* line 153, ../scss/style.scss */
+#counter-up {
+  background: #E6ECFD;
+}
+/* line 156, ../scss/style.scss */
+#counter-up .same-counter-up h1 {
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
+}
+/* line 161, ../scss/style.scss */
+#counter-up .same-counter-up p {
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+}
+
+/* End of counter up */
+/* Start skill */
+/* line 172, ../scss/style.scss */
+#skill {
+  background: #f5f5f5;
+}
+
+/* line 176, ../scss/style.scss */
+.skill-left p {
+  font-size: 14px;
+  color: #5e6d77;
+}
+
+/* line 183, ../scss/style.scss */
+.skill-right .same-skill h3 {
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 187, ../scss/style.scss */
+.skill-right .same-skill .progress {
+  background: #eeeeee;
+  height: 3px;
+}
+/* line 190, ../scss/style.scss */
+.skill-right .same-skill .progress .progress-bar {
+  background: #000000;
+}
+
+/* End of skill */
+/* Start feedback */
+/* line 201, ../scss/style.scss */
+#feedback {
+  background: url("../images/feedback-bg.jpg") no-repeat scroll center center/cover;
+}
+/* line 203, ../scss/style.scss */
+#feedback .overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* line 208, ../scss/style.scss */
+.feedback h3 {
+  font-size: 20px;
+  color: #ffffff;
+  max-width: 660px;
+  margin: 0 auto;
+}
+/* line 214, ../scss/style.scss */
+.feedback small {
+  font-size: 10px;
+  color: #ffffff;
+}
+
+/* End of feedback */
+/* Start blog */
+/* line 223, ../scss/style.scss */
+#blog {
+  background: #f5f5f5;
+}
+/* line 228, ../scss/style.scss */
+#blog .same-blog ul li i {
+  color: #95e1d3;
+  font-size: 14px;
+}
+/* line 231, ../scss/style.scss */
+#blog .same-blog ul li i span {
+  color: #999999;
+  font-weight: bold;
+}
+/* line 239, ../scss/style.scss */
+#blog .same-blog .card-body h4 {
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* line 244, ../scss/style.scss */
+#blog .same-blog .card-body p {
+  font-size: 14px;
+  color: #5e6d77;
+  font-size: 14px;
+}
+
+/* line 252, ../scss/style.scss */
+.card-img {
+  position: relative;
+}
+/* line 254, ../scss/style.scss */
+.card-img .card-calender {
+  position: absolute;
+  left: -8px;
+  bottom: 10px;
+  text-align: center;
+  height: 60px;
+  width: 55px;
+  background: #3f68d4;
+  color: #ffffff;
+}
+/* line 263, ../scss/style.scss */
+.card-img .card-calender h1 {
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+/* line 268, ../scss/style.scss */
+.card-img .card-calender span {
+  font-style: italic;
+}
+
+/* End of blog */
+/* Start footer */
+/* line 278, ../scss/style.scss */
+footer {
+  background: #000000;
+}
+/* line 281, ../scss/style.scss */
+footer .footer-left-top p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+}
+/* line 287, ../scss/style.scss */
+footer .logo {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+}
+/* line 292, ../scss/style.scss */
+footer .logo:hover {
+  color: #ffffff;
+}
+/* line 297, ../scss/style.scss */
+footer .footer-left-bottom h4 {
+  color: #ffffff;
+  font-size: 13px;
+}
+/* line 300, ../scss/style.scss */
+footer .footer-left-bottom h4 span {
+  font-size: 18px;
+  font-weight: bold;
+}
+/* line 305, ../scss/style.scss */
+footer .footer-left-bottom hr {
+  background: #ffffff;
+}
+/* line 309, ../scss/style.scss */
+footer .footer-left-bottom p i {
+  color: #ffffff;
+  font-size: 14px;
+}
+/* line 317, ../scss/style.scss */
+footer .footer-left-bottom .follow-social li a i {
+  color: #95e1d3;
+}
+/* line 324, ../scss/style.scss */
+footer .footer-left-bottom .input-group input {
+  border: 0;
+}
+/* line 326, ../scss/style.scss */
+footer .footer-left-bottom .input-group input:focus {
+  box-shadow: none;
+}
+/* line 332, ../scss/style.scss */
+footer .footer-header {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* line 340, ../scss/style.scss */
+footer .footer-center .media .media-body h5 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+}
+/* line 345, ../scss/style.scss */
+footer .footer-center .media .media-body span {
+  color: #999999;
+  font-size: 12px;
+}
+
+/* line 354, ../scss/style.scss */
+.footer-bottom p {
+  color: #ffffff;
+  font-size: 14px;
+}
+/* line 358, ../scss/style.scss */
+.footer-bottom hr {
+  background: #ffffff;
+}
+
+/* line 362, ../scss/style.scss */
+.footer-center {
+  margin-top: 14px;
+}
+
+/* line 365, ../scss/style.scss */
+.footer-right {
+  margin-top: 14px;
+}
+
+/* End of footer */
+/* Import responsive scss */
+@media only screen and (max-width: 1366px) {
+  /* line 2, ../scss/partial/_responsive.scss */
+  header .jumbotron {
+    padding: 13rem 0;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  /* line 8, ../scss/partial/_responsive.scss */
+  header .jumbotron {
+    padding: 12rem 0;
+  }
+}
+@media only screen and (max-width: 991px) {
+  /* line 14, ../scss/partial/_responsive.scss */
+  header .jumbotron {
+    padding: 9rem 0;
+  }
+
+  /* line 17, ../scss/partial/_responsive.scss */
+  .nav.filter-nav {
+    margin-top: 0;
+  }
+
+  /* line 20, ../scss/partial/_responsive.scss */
+  .sec-pad {
+    padding: 50px 0 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 25, ../scss/partial/_responsive.scss */
+  header .jumbotron {
+    padding: 6rem 0;
+  }
+}
+@media only screen and (max-width: 554px) {
+  /* line 30, ../scss/partial/_responsive.scss */
+  header .jumbotron {
+    padding: 6rem 1rem;
+  }
+
+  /* line 33, ../scss/partial/_responsive.scss */
+  header .jumbotron h1 {
+    font-size: 40px;
+  }
+}
